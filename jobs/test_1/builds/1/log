@@ -1,0 +1,28 @@
+Started by GitHub push by rashmi1203
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/test_1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/rashmi1203/cen_rep.git
+ > git init /var/lib/jenkins/workspace/test_1 # timeout=10
+Fetching upstream changes from https://github.com/rashmi1203/cen_rep.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/rashmi1203/cen_rep.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rashmi1203/cen_rep.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rashmi1203/cen_rep.git # timeout=10
+Fetching upstream changes from https://github.com/rashmi1203/cen_rep.git
+ > git fetch --tags --progress -- https://github.com/rashmi1203/cen_rep.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f7a97bf40ef4fafc2e1b07501005a73630a0a61c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f7a97bf40ef4fafc2e1b07501005a73630a0a61c # timeout=10
+Commit message: "Update fact.c"
+First time build. Skipping changelog.
+[test_1] $ /bin/sh -xe /tmp/jenkins5658642523680762688.sh
++ cd /var/lib/jenkins/workspace/test_1
++ make
+/tmp/jenkins5658642523680762688.sh: line 4: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

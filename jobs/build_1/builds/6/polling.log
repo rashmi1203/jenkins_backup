@@ -1,0 +1,11 @@
+Started on Jan 16, 2020 4:50:21 AM
+Started by event from 192.30.252.91 ⇒ http://13.233.101.249:8080/github-webhook/ on Thu Jan 16 04:50:21 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 80db64868ef0efbcf4f152607ad66c2ec41fb23d (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/rashmi1203/cen_rep.git # timeout=10
+Found 1 remote heads on https://github.com/rashmi1203/cen_rep.git
+[poll] Latest remote head revision on refs/heads/master is: 1002b9388da3ec8a79380707dcf5e2238200848b
+Done. Took 0.69 sec
+Changes found

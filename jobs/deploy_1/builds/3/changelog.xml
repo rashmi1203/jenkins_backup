@@ -1,0 +1,9 @@
+commit 75670f51b1b81754ec1eee961a9d231cae3e353d
+tree 51a5e796c9fdd62ef0d55fed84b631cf6ce54d65
+parent 4c3c0199d7987be8e60963beccef9b278d6a2060
+author rashmi1203 <59695110+rashmi1203@users.noreply.github.com> 2020-01-15 21:48:02 +0530
+committer GitHub <noreply@github.com> 2020-01-15 21:48:02 +0530
+
+    Update fact.c
+
+:100644 100644 58fbcadcb322c0fbbb9db3f0bc5582935d37eafd 6c7f1cf30186e3103302ae5b4eae0ea04f3fcf41 M	fact.c

@@ -1,0 +1,23 @@
+Started by GitHub push by rashmi1203
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy_1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rashmi1203/cen_rep.git # timeout=10
+Fetching upstream changes from https://github.com/rashmi1203/cen_rep.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/rashmi1203/cen_rep.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 80db64868ef0efbcf4f152607ad66c2ec41fb23d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 80db64868ef0efbcf4f152607ad66c2ec41fb23d # timeout=10
+Commit message: "Update fact.c"
+ > git rev-list --no-walk 95fec1ee136eb97532e67c4cb038e139585f331d # timeout=10
+[deploy_1] $ /bin/sh -xe /tmp/jenkins6231984686650542110.sh
++ cd /var/lib/jenkins/workspace/deploy_1
++ make
+/tmp/jenkins6231984686650542110.sh: line 4: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
